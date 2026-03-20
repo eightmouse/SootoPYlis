@@ -1,0 +1,53 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.qmlc
+*.jsc
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Local environment and editor state
+.python-version
+.env
+.env.*
+.vscode/
+.idea/
+*.code-workspace
+.vendor/
+pokemon-emerald.otf
+
+# OS noise
+Thumbs.db
+.DS_Store
+
+# User-supplied ROMs and emulator/save artifacts
+*.rom
+*.gba
+*.gb
+*.gbc
+*.sav
+*.sa1
+*.ss0
+*.ss1
+*.ss2
+*.ss3
+*.ss4
+*.ss5
+*.ss6
+*.ss7
+*.ss8
+*.ss9
+*.sgm
+*.state
+*.rtc
+
+# Local app runtime data
+.sootopylis/
+runtime/
+cache/
+tmp/

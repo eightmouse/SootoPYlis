@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sootopylis"
+version = "0.1.0"
+description = "Python desktop shell for a user-supplied Pokemon Emerald experience."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "Pillow>=12,<13",
+  "PySide6>=6.8,<7",
+]
+
+[project.scripts]
+sootopylis-desktop = "sootopylis_desktop.main:main"
+
+[tool.setuptools.packages.find]
+where = [
+  "App/SootoPYlisDesktop/Sources",
+  "Sources/SootCore",
+  "Sources/SootUI",
+  "Sources/EmeraldData",
+  "Sources/EmeraldExtractor",
+]
+include = [
+  "sootopylis_desktop*",
+  "sootcore*",
+  "sootui*",
+  "emeralddata*",
+  "emeraldextractor*",
+]
+
+[tool.setuptools.package-data]
+sootopylis_desktop = [
+  "qml/**/*.qml",
+  "qml/**/*.js",
+]
