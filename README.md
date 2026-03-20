@@ -4,6 +4,7 @@
 [![Support me on Ko-fi](https://img.shields.io/badge/Support%20Me-Ko--fi-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/eightmouse)
 
 # SootoPYlis
+<img width="1440" height="900" alt="Screenshot 2026-03-20 174236" src="https://github.com/user-attachments/assets/dfbb071b-52e3-45b1-bf35-976b4ac40fc1" />
 
 SootoPYlis is my attempt to recreate the feel of [PokeSwift](https://github.com/Dimillian/PokeSwift) for Pokemon Emerald in Python.
 
